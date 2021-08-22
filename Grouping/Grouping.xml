@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">	
+		<test name="E2E">	
+			<groups>	
+				<run>	
+   					 <include name="e2e" />	
+        		</run>	
+       		</groups>	
+			<classes>	
+					<class name="TestPackage.TC_1_Magento" />
+           	</classes>	
+		</test>	
+  </suite>	

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestSuite" thread-count="2" parallel="tests" >
+
+
+<test name="ChromeTest">
+
+<parameter name="browser" value="chrome" />
+
+<classes>
+
+<class name="TestPackage.TC_1_Magento">
+
+</class>
+
+</classes>
+
+</test>
+
+
+<test name="FirefoxTest">
+
+<parameter name="browser" value="firefox" />
+
+<classes>
+
+<class name="TestPackage.TC_1_Magento">
+
+</class>
+
+</classes>
+
+</test>
+
+
+</suite>
